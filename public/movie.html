@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Movies</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movie.css">
+
+</head>
+<body>
+   
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <img src="./img/Star_movies_(bein)_logo.png" class="logo" alt="Logo">
+        <div class="nav-box">
+            <p class="nav-msg">Random tv shows & movies in HD</p>
+            <button class="btn try-btn">Try now</button>
+            <button class="btn log-btn">Register/Login</button>
+        </div>
+        
+    </nav>
+
+
+    <!-- MODALS -->
+    
+    <!-- TRY NOW -->
+    <div class="modal-try">
+        <div class = "form">
+            <span class="close">X</span>
+            <div class="first">
+                <h2 class="title_form">Stay updated</h2>
+                <p class="text"> Our contents are constantly updated, you will periodically receive our offers and discounts suitable for you!</p>
+            </div>
+        <div class="second">
+            <input type="email" class = "email"placeholder="Put your e-mail here">
+            <button class="btn send">Send</button>
+        </div>
+    </div>
+ </div>
+
+ <!-- END TRY NOW -->
+
+ <!-- INFO MOVIE -->
+    <div class="containerinfo">
+        
+        <div class="movie-info">
+            <div class="movie-detail">
+                <h1 class="movie-name"> </h1>
+                <p class="genred"> </p>
+                <p class="des"> </p>
+                <p class="starring"><span>Starring: </span></p>
+                <p class="rating"></p>
+                <form action="/">
+                    <button id="return">Back</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <script src="./js/movie.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

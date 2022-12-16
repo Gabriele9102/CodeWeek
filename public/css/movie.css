@@ -1,0 +1,71 @@
+:root{
+    --bg1: rgb(24,24,24);
+    --bg2: linear-gradient(90deg, rgba(24, 24, 24, 1), rgba(24, 24, 24, 0)100%);
+    --bg3: #fff;
+    --logoblue: #00b4c4;
+}
+
+
+.movie-info{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie-detail{
+    width: 50%;
+    height: 104%;
+    background: var(--bg1);
+    background: var(--bg2);
+    padding: 5vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--bg3);
+}
+
+.movie-name{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.genred{
+    opacity: 0.7;
+    margin: 30px 0;
+}
+
+.des{
+    width: 70%;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.starring span {
+    opacity: 0.6;
+}
+
+.rating{
+    margin-top: 20px;
+}
+
+#return{
+    margin-top: 15px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   height: 35px;
+   padding: 0 10px;
+   border: 1px solid var(--bg3);
+   color: var(--bg3);
+   border-radius: 2px;
+   background: transparent;
+   text-transform: uppercase;
+}
+
+
+#return:hover{
+    color: var(--logoblue);
+    border: 1px solid var(--logoblue);
+
+}
